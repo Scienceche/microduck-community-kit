@@ -4973,16 +4973,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "UVLO=3V"
-		(exclude_from_sim no)
-		(at 217.17 44.704 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2138b0ea-12fe-4021-bf9b-0e613eee0b5b")
-	)
 	(text "Debug"
 		(exclude_from_sim no)
 		(at 63.5 184.658 0)
@@ -18237,9 +18227,9 @@
 		(at 223.52 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc14964e-e98e-4ecb-a58c-81e7f3e222ff")
 		(property "Reference" "R4"
