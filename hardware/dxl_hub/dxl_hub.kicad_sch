@@ -942,6 +942,26 @@
 		)
 		(uuid 9352fa70-0bb6-4943-92e3-04e910cc2daf)
 	)
+	(text "接颈部舵机线"
+		(exclude_from_sim no)
+		(at 246.634 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1be74a53-30bb-497f-8b32-2ceee7bab6ea")
+	)
+	(text "接IMU"
+		(exclude_from_sim no)
+		(at 193.294 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40b136d0-351c-4579-a7dc-044e529e914d")
+	)
 	(text "飞特接口"
 		(exclude_from_sim no)
 		(at 176.784 101.6 0)
@@ -952,9 +972,9 @@
 		)
 		(uuid "58957a68-6e35-4310-b1b5-1beb6a9fe3d5")
 	)
-	(text "上一版本发现正面焊接卧式插座(CN2、CN4)，与鸭脖子舵机有少许干涉\n改为背面立式插座，正面舵机线束需要绕到背面插上"
+	(text "正面左右腿舵机线束需要绕到背面插上"
 		(exclude_from_sim no)
-		(at 124.968 98.806 0)
+		(at 123.19 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1362,7 +1382,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06165f58-0711-4488-8e03-08281abb51fd")
 		(property "Reference" "CN4"
 			(at 153.67 85.0899 0)
@@ -1373,8 +1392,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B3B-PH-K-S(LF)(SN)"
-			(at 153.67 87.6299 0)
+		(property "Value" "AMP175778/8283/A2007WV-3P"
+			(at 140.716 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1941,7 +1960,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e5c21b5-df96-4cf6-97ec-0fd1a89a56a5")
 		(property "Reference" "CN8"
 			(at 248.92 86.3599 0)
@@ -1952,8 +1970,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B3B-PH-K-S(LF)(SN)"
-			(at 248.92 88.8999 0)
+		(property "Value" "AMP175778/8283/A2007WV-3P"
+			(at 235.712 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2032,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "502e12cf-5461-42a9-8f80-72c5e39333f5")
 		(property "Reference" "CN1"
 			(at 114.3 68.5799 0)
@@ -2026,7 +2043,7 @@
 			)
 		)
 		(property "Value" "B3B-EH-A (LF)(SN)"
-			(at 114.3 71.1199 0)
+			(at 113.284 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2104,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "570caa36-604c-4425-b868-1feda715c723")
 		(property "Reference" "CN5"
 			(at 203.2 69.8499 0)
@@ -2099,7 +2115,7 @@
 			)
 		)
 		(property "Value" "B3B-EH-A (LF)(SN)"
-			(at 203.2 72.3899 0)
+			(at 202.438 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2377,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73905c94-189d-49f0-a128-53da2d7c0cbd")
 		(property "Reference" "CN3"
 			(at 158.75 68.5799 0)
@@ -2373,7 +2388,7 @@
 			)
 		)
 		(property "Value" "B3B-EH-A (LF)(SN)"
-			(at 158.75 71.1199 0)
+			(at 158.242 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2516,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "888e0333-575a-4495-b85f-b5b7315828be")
 		(property "Reference" "CN7"
 			(at 254 69.8499 0)
@@ -2513,7 +2527,7 @@
 			)
 		)
 		(property "Value" "B3B-EH-A (LF)(SN)"
-			(at 254 72.3899 0)
+			(at 253.492 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2853,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a3d8ac3-fc58-491b-99bc-eebe4202f367")
 		(property "Reference" "CN2"
 			(at 109.22 85.0899 0)
@@ -2850,8 +2863,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B3B-PH-K-S(LF)(SN)"
-			(at 109.22 87.6299 0)
+		(property "Value" "AMP175778/8283/A2007WV-3P"
+			(at 94.996 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3393,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f20eedf0-09fe-450c-a8bd-046eb3964cdf")
 		(property "Reference" "CN6"
 			(at 198.12 86.3599 0)
@@ -3391,8 +3403,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B3B-PH-K-S(LF)(SN)"
-			(at 198.12 88.8999 0)
+		(property "Value" "AMP175778/8283/A2007WV-3P"
+			(at 182.372 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
