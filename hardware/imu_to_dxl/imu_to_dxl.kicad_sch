@@ -2522,6 +2522,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "microduck:GL0603UG01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GL0603UG01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "microduck:LED0603-RD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "GL0603UG01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Guiguang light(桂光光电)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C51933293"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GL0603UG01_0_0"
+				(polyline
+					(pts
+						(xy -4.064 3.302) (xy -3.048 2.794) (xy -3.556 2.286) (xy -4.064 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 4.318) (xy -2.032 3.81) (xy -2.54 3.302) (xy -3.048 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.524) (xy -3.302 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.286 3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "microduck:LAIL-PZ2.54-4P-L"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5013,26 +5232,6 @@
 		)
 		(uuid "b3455082-64c1-4d97-90cc-4a1ea73e256b")
 	)
-	(text "改6.3V"
-		(exclude_from_sim no)
-		(at 195.072 215.138 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b9698121-cb02-4b30-a18f-02df556bbda4")
-	)
-	(text "改6.3V"
-		(exclude_from_sim no)
-		(at 248.412 214.122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bf28b362-9c6e-4378-aa02-0f95a10c24b9")
-	)
 	(text "USB Download Switch"
 		(exclude_from_sim no)
 		(at 156.464 213.614 0)
@@ -5066,6 +5265,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f7d7222-6c5c-4d22-b9c2-382ac1699cc4")
+	)
+	(junction
+		(at 46.99 256.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22ce88eb-6230-4eab-87a1-550397cd7ab9")
 	)
 	(junction
 		(at 260.35 34.29)
@@ -5180,6 +5385,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9511f93c-a6ff-4f35-873b-3ecf711185d0")
+	)
+	(junction
+		(at 21.59 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a6db83e-3b0a-4531-9a1d-db879fa8d903")
 	)
 	(junction
 		(at 207.01 208.28)
@@ -5315,6 +5526,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 212.09) (xy 171.45 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a12ac1-23f9-4df0-bde4-cb9c88cb850c")
+	)
+	(wire
+		(pts
 			(xy 223.52 36.83) (xy 231.14 36.83)
 		)
 		(stroke
@@ -5372,6 +5593,16 @@
 			(type default)
 		)
 		(uuid "0cad9bac-fd77-466a-93d3-f4b74177cc84")
+	)
+	(wire
+		(pts
+			(xy 171.45 199.39) (xy 185.42 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4e1b58-bb98-452c-9b41-b25353be1884")
 	)
 	(wire
 		(pts
@@ -5522,6 +5753,16 @@
 			(type default)
 		)
 		(uuid "273cd867-f520-4e9c-b0fa-d130e67d0c9b")
+	)
+	(wire
+		(pts
+			(xy 171.45 224.79) (xy 171.45 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274531ad-b977-4aa0-9b39-0e7c5c0e9b50")
 	)
 	(wire
 		(pts
@@ -5745,6 +5986,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 245.11) (xy 46.99 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43443359-69a6-4bfe-863a-12750697d061")
+	)
+	(wire
+		(pts
 			(xy 57.15 118.11) (xy 57.15 114.3)
 		)
 		(stroke
@@ -5925,6 +6176,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 245.11) (xy 21.59 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594a4da1-2a96-4e59-a4b2-d2775ecd5b7a")
+	)
+	(wire
+		(pts
 			(xy 138.43 234.95) (xy 138.43 227.33)
 		)
 		(stroke
@@ -5972,6 +6233,16 @@
 			(type default)
 		)
 		(uuid "611c7b55-778a-45e5-9792-8a433401b393")
+	)
+	(wire
+		(pts
+			(xy 171.45 199.39) (xy 171.45 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630c0db7-7ae7-4c96-9660-6063e9bbed7f")
 	)
 	(wire
 		(pts
@@ -6272,6 +6543,16 @@
 			(type default)
 		)
 		(uuid "916d5199-c391-4d01-8e7d-ca229a4929cc")
+	)
+	(wire
+		(pts
+			(xy 118.11 222.25) (xy 130.81 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e3b82e-3aa4-478a-8719-5d54c5945cf2")
 	)
 	(wire
 		(pts
@@ -7015,6 +7296,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 245.11) (xy 46.99 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f58efb5b-b8e2-4eac-9251-93394cb71b8a")
+	)
+	(wire
+		(pts
 			(xy 54.61 240.03) (xy 74.93 240.03)
 		)
 		(stroke
@@ -7062,6 +7353,16 @@
 			(type default)
 		)
 		(uuid "f8a00b06-8ce0-42d1-b0f1-93a0d15f5e38")
+	)
+	(wire
+		(pts
+			(xy 30.48 245.11) (xy 21.59 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96523e5-eaa1-4497-b396-c7d2aff24a93")
 	)
 	(wire
 		(pts
@@ -7413,6 +7714,16 @@
 		)
 		(uuid "9bf1312c-6d8b-4915-9adb-84a23ba382fa")
 	)
+	(label "DEBUG_LED"
+		(at 172.72 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a55532f9-9f3a-478e-af4f-4b68c4442419")
+	)
 	(label "IMU_SPI_MISO"
 		(at 162.56 267.97 0)
 		(effects
@@ -7472,6 +7783,16 @@
 			(justify left bottom)
 		)
 		(uuid "b1904989-187d-45ae-92be-177e4ff06d19")
+	)
+	(label "DEBUG_LED"
+		(at 120.65 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b318cb27-dd31-44d7-9d72-d7ffbbf01d50")
 	)
 	(label "TXD_EN"
 		(at 168.91 105.41 0)
@@ -10703,7 +11024,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27pF/50V"
+		(property "Value" "20pF/50V"
 			(at 58.42 267.9699 90)
 			(effects
 				(font
@@ -10757,7 +11078,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C107002"
+		(property "LCSC Part" "C107000"
 			(at 54.61 266.7 0)
 			(effects
 				(font
@@ -12210,8 +12531,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 40.64 40.6401 0)
+		(property "Value" "AMP175778/8283/A2007WV-3P"
+			(at 68.58 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,6 +12714,73 @@
 			(project "imu_to_dxl"
 				(path "/9e76362d-8a32-4a28-948c-242ffcf8f16d"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 227.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63b9e0af-613b-49ed-b135-b0c29c94b5c0")
+		(property "Reference" "#PWR060"
+			(at 171.45 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f31471b3-d858-4798-9d48-c0434cfc795e")
+		)
+		(instances
+			(project "imu_to_dxl"
+				(path "/9e76362d-8a32-4a28-948c-242ffcf8f16d"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -13192,7 +13580,7 @@
 				)
 			)
 		)
-		(property "Value" "51R"
+		(property "Value" "0R"
 			(at 105.41 25.4 0)
 			(effects
 				(font
@@ -13245,7 +13633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2907181"
+		(property "LCSC Part" "C21189"
 			(at 105.41 29.21 0)
 			(effects
 				(font
@@ -13405,7 +13793,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "B3B-EH-A(LF)(SN)"
 			(at 39.37 27.9399 0)
 			(effects
 				(font
@@ -13546,7 +13934,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "27pF/50V"
+		(property "Value" "20pF/50V"
 			(at 25.4 267.9699 90)
 			(effects
 				(font
@@ -13600,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C107002"
+		(property "LCSC Part" "C107000"
 			(at 21.59 266.7 0)
 			(effects
 				(font
@@ -14049,6 +14437,111 @@
 	(symbol
 		(lib_name "RC0402FR-0710KL_1")
 		(lib_id "microduck:RC0402FR-0710KL")
+		(at 35.56 245.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8381b873-808d-4c97-9e7f-6ab7b1bc2743")
+		(property "Reference" "R35"
+			(at 35.56 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 35.56 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "microduck:R0402"
+			(at 35.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 35.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 35.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C26083"
+			(at 35.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 35.56 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f92755-def4-4f55-9622-8f358ce8f0e8")
+		)
+		(pin "2"
+			(uuid "6a2d8076-ace4-4926-a5e2-b352dd46b85d")
+		)
+		(instances
+			(project "imu_to_dxl"
+				(path "/9e76362d-8a32-4a28-948c-242ffcf8f16d"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0402FR-0710KL_1")
+		(lib_id "microduck:RC0402FR-0710KL")
 		(at 127 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14284,7 +14777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMAJ24A"
+		(property "Value" "SMAJ36A"
 			(at 130.81 31.3689 90)
 			(effects
 				(font
@@ -14320,7 +14813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "SMAJ24A/TR13"
+		(property "Manufacturer Part" ""
 			(at 128.27 30.48 0)
 			(effects
 				(font
@@ -14329,7 +14822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Brightking(君耀电子)"
+		(property "Manufacturer" ""
 			(at 128.27 30.48 0)
 			(effects
 				(font
@@ -14338,7 +14831,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C90510"
+		(property "LCSC Part" "C353452"
 			(at 128.27 30.48 0)
 			(effects
 				(font
@@ -18327,6 +18820,112 @@
 		)
 	)
 	(symbol
+		(lib_id "microduck:GL0603UG01")
+		(at 171.45 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dce1fc60-112d-4dbb-b634-5441b8c149df")
+		(property "Reference" "LED1"
+			(at 173.99 206.5019 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GL0603UG01"
+			(at 173.99 209.0419 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "microduck:LED0603-RD"
+			(at 171.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "GL0603UG01"
+			(at 171.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Guiguang light(桂光光电)"
+			(at 171.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C51933293"
+			(at 171.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 171.45 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1b9bc5b-0028-4591-8c16-fd124ed28a1e")
+		)
+		(pin "2"
+			(uuid "6fbb548f-a17a-441f-ad90-3a139378d2c3")
+		)
+		(instances
+			(project "imu_to_dxl"
+				(path "/9e76362d-8a32-4a28-948c-242ffcf8f16d"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RC0402FR-0710KL_1")
 		(lib_id "microduck:RC0402FR-0710KL")
 		(at 38.1 172.72 180)
@@ -18874,6 +19473,113 @@
 			(project "imu_to_dxl"
 				(path "/9e76362d-8a32-4a28-948c-242ffcf8f16d"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RC0402FR-0710KL_1")
+		(lib_id "microduck:RC0402FR-0710KL")
+		(at 171.45 219.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e76321bc-ff62-41de-a9fd-7b852c9cf6e5")
+		(property "Reference" "R34"
+			(at 173.99 218.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 173.99 220.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "microduck:R0402"
+			(at 171.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 171.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 171.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 171.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 171.45 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28d79043-b547-4012-9702-e8c3fb4a6db7")
+		)
+		(pin "2"
+			(uuid "077e33dc-b3ce-43b3-a707-fe49bed011a9")
+		)
+		(instances
+			(project "imu_to_dxl"
+				(path "/9e76362d-8a32-4a28-948c-242ffcf8f16d"
+					(reference "R34")
 					(unit 1)
 				)
 			)
